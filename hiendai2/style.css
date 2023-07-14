@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555555;
+}
+.skill_rate{
+    background-color: rgb(206, 206, 206);
+    height: 12px;
+    align-items: flex-end;
+    display: flex;
+    cursor: pointer;
+}
+.skill_rate--item{
+    width: 20%;
+    height: 100%;
+}
+.skill_rate--item.active{
+    background-color: rgb(85 85 85  / 100%);
+}
+/* .info-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.line{
+    background-color: rgb(204, 204, 204);
+     max-width: 100%;
+      height: 0.5px;
+}
+ul{
+    padding-left: 20px;
+}
+.infor-title h5{
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.table td{
+    border-top: none;
+    padding: 0px;
+}
+tr{
+    width: 200px;
+    align-items: center;
+}
